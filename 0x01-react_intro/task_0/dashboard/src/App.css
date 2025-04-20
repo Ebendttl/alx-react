@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-holberton {
+  height: auto;
+  max-width: 800px; /* Adjust as needed */
+  width: 200%;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  /* Remove min-height: 100vh; */  
+  display: flex;
+  flex-direction: row; /* Change to row */
+  align-items: center;      /* Center items vertically */
+  justify-content: flex-start; /* Align items to the start (left in row) */
+  text-align: left; /* */
+  font-size: calc(10px + 2vmin);
+  color: red;
+  padding: 20px 0; /* Add some padding for spacing */
+}
+
+.App-header h1 {
+    margin-left: 20px; /* Add margin to the heading to separate from image*/
+}
+
+.App-body {
+  background-color: #ffffff;
+  border-top: red 10px solid;
+  border-bottom: red 10px solid;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 3vmin);
+  color: black;
+}
+
+.App-footer {
+  background-color: none;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 3vmin);
+  font-style: italic;
+  color: black;
+}
